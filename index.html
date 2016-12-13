@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>laray</title>
+<title>laray</title>  
 </head>
     <style>
    body {           
@@ -10,18 +10,16 @@
     -o-background-size: 100%; /* Opera 9.6+ */
     background-size: 100%; /* Современные браузеры */
    }
-    #gs{
-    height:95%;
-    width:auto;
-        }
   </style>
             <link href="jj.css", rel="stylesheet", type="text/css">
       <body>
-         
-       
-               <audio src="MCH.mp3" autoplay="autoplay">
+               
+                    
+               <audio src="MCH.mp3" autoplay preload="auto" id="musicH">
                </audio>
-                
-
+             
+  <script type="text/javascript">
+   document.getElementById('musicH').play();
+  </script>
         </body>
 </html>
