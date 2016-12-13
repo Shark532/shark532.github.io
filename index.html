@@ -5,17 +5,20 @@
     <style>
    body {           
     background: url(fon.jpg) no-repeat;
-    -moz-background-size: 100%; /* Firefox 3.6+ */
-    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: 100%; /* Современные браузеры */
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
    }
   </style>
             <link href="jj.css", rel="stylesheet", type="text/css">
       <body>
                
                     
-               <audio src="MCH.mp3" autoplay preload="auto" id="musicH">
+               <audio autoplay preload="auto" id="musicH">
+                        <source src="MCH.mp3"/>
+                        <source src="MCH.ogg"/>
+               
                </audio>
              
   <script type="text/javascript">
